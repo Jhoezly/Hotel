@@ -1,0 +1,101 @@
+/* Estilos básicos */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    background-image: url(img/encuerados.jpeg);
+    background-position: center;
+    background-color: #ccc;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(145, 58, 58, 0.7);
+    padding: 25px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #32b6d7;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e4548;
+}
+
+/* Estilos generales para el enlace */
+#language-toggle {
+    background-color: #800020; /* Vino oscuro */
+    color: white; /* Texto blanco */
+    font-family: 'Arial', sans-serif; /* Tipografía simple */
+    font-size: 16px; /* Tamaño de fuente moderado */
+    padding: 8px 16px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Eliminar subrayado */
+    display: inline-block; /* Para que el padding funcione correctamente */
+    transition: background-color 0.3s, transform 0.3s; /* Efectos de transición */
+  }
+  
+  /* Cambio de color y pequeño efecto de elevación al pasar el ratón */
+  #language-toggle:hover {
+    background-color: #660000; /* Vino más oscuro */
+    transform: translateY(-2px); /* Efecto de elevar el botón */
+  }
+  
+  /* Posicionamiento en la esquina superior derecha */
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+  }
+  
+  #language-toggle {
+    position: absolute;
+    top: 20px; /* Distancia desde el borde superior */
+    right: 20px; /* Distancia desde el borde derecho */
+  }
+  
